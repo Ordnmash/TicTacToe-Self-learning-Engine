@@ -2,6 +2,10 @@
 *this project is not actually the final product.*
 Yet I'm very excited to share this here because I feel like I have made some progress in this field.
 
+<p align="center">
+  <img src="tictactoe_robot.png" width="800" alt="GitMore Logo">
+</p>
+
 #### What is this actually?
 This is ttt AI game engine which is entirely `MLP, ANN` it has no intensions of memmory.
 the *network* is able to learn whether is right or wrong through Reward, if it wins the game it gets rewarded,
