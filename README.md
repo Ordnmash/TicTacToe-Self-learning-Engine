@@ -3,7 +3,7 @@
 Yet I'm very excited to share this here because I feel like I have made some progress in this field.
 
 <p align="center">
-  <img src="tictactoeTiny_robot.jpeg" width="800" alt="GitMore Logo">
+  <img src="tictactoeTiny_robot.jpeg" width="600" height="400" alt="tictactoe_Robot">
 </p>
 
 #### What is this actually?
