@@ -15,6 +15,7 @@ if train:
         p.data += (lr * p.grad)
       for p in o.parameters:
         p.data += (lr * p.grad)
+        
     if who == 'x':
       for p in x.parameters:
         p.grad=None
@@ -22,6 +23,7 @@ if train:
       # optimizing...
       for p in x.parameters:
         p.data += (lr * p.grad)
+        
     if who == 'o':
       for p in o.parameters:
         p.grad=None
