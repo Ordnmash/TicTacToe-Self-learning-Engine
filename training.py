@@ -1,7 +1,7 @@
 # this file shows the training section using SGD optimizer
 if train:
   for l in range(loop):
-    if not who:
+    if not who: # this trains both parts of the model.
       # backward pass
       for p in x.parameters:
         p.grad=None
