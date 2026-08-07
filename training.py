@@ -15,7 +15,8 @@ if train:
         p.data += (lr * p.grad)
       for p in o.parameters:
         p.data += (lr * p.grad)
-        
+
+    # with who passed as 'x' we only train specific side of the model which is X
     if who == 'x':
       for p in x.parameters:
         p.grad=None
