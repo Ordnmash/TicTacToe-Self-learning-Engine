@@ -244,14 +244,17 @@ class ttt:
       # output layer:
       probs   = F.softmax(h5tanh[0], -1)
       self.probs = probs
+      
       def sample():
         ix    = torch.multinomial(probs, num_samples=1, replacement=True, generator=self.g)
         if ix not in self.P.picked:
           self.P.picked.append(ix)
           return ix
         return
+      
       ix      = sample()
       notTensor = type(ix) == type(None)
+      
       while notTensor:
         self.tries += 1
         self.orgtrs[self.P.round] += 1
@@ -260,4 +263,5 @@ class ttt:
 
       self.paths.append(ix)
       self.lprobs.append(torch.log(probs[ix]))
+      
       return ix
