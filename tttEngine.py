@@ -184,7 +184,7 @@ class ttt:
       self.w2     = torch.randn((18,18),    generator=self.g) * ((5/3) / (((18+18)/2)**0.5))
       self.w3     = torch.randn((18,15),    generator=self.g) * ((5/3) / (((18+15)/2)**0.5))
       self.w4     = torch.randn((15,12),    generator=self.g) * ((5/3) / (((15+12)/2)**0.5))
-      self.w5     = torch.randn((12,9),     generator=self.g) * 0.000001
+      self.w5     = torch.randn((12,9),     generator=self.g) * 0.01 # this influences the logits to be normalized at init
       # layer Norm parameters...
       self.gamma1 = torch.ones((1,18),   dtype=torch.float32)
       self.beta1  = torch.zeros((1,18),  dtype=torch.float32)
