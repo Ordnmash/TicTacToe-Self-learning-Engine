@@ -41,7 +41,9 @@ class ttt:
         self.turn = 'o'
         
       def play(x,o):
+        
         def checkwin(x,o):
+          
           for k in self.winpaths:
             x.win = []
             o.win = []
@@ -52,6 +54,7 @@ class ttt:
                   for i in x.win:
                     x.lprobs[x.paths.index(i)] *= torch.tensor([2.0])
                   return 'x'
+                  
             for q in o.paths:
               if q in k:
                 o.win.append(q)
