@@ -175,7 +175,7 @@ class ttt:
       if i % (plays/5) == 0:
         print(f"{i}:plays...")
   class player:
-    def __init__(self, parent):
+    def __init__(self, parent: ttt):
       self.g   = torch.Generator().manual_seed(223341)
       self.P   = parent
       # model learning parameters
