@@ -16,8 +16,7 @@ again when the network is in the same situation.
 ##### *_Yet the Network `learns rules also`_*
 the network is given the freedom to choose its game move when picks the move that is already picked it's given another shot 
 to pick another move, And this comes with the cost the network is getting negative reward when it picks the move that's 
-elligal. After many times of training it learns not to pick moves that are already picked because it tries to avoid the 
-cost.
-
+elligal. After many times of training it learns not to pick moves that are already picked because it tries to avoid the cost.
+<hr>
 ###### This is just <b>MLP, FEED FORWARD NN</b>, isn't a very deep network that could outsmart a human yet, but scaling this up to even deeper architectures 
 ###### would improve its capabilities...
