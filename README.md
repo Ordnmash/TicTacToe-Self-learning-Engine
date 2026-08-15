@@ -5,12 +5,13 @@ Yet I'm very excited to share this here because I feel like I have made some pro
 <p align="center">
   <img src="tictactoeTiny_robot.jpeg" width="600" height="400" alt="tictactoe_Robot">
 </p>
-
+<hr>
 #### What is this actually?
 This is ttt AI game engine which is entirely `MLP, ANN` it has no intensions of memmory.
 the *network* is able to learn whether is right or wrong through Reward, if it wins the game it gets rewarded,
 so it learns that it has done a good move and it updates its parameters so that this winning path gets higher probability
 again when the network is in the same situation.
+<hr>
 
 ##### *_Yet the Network `learns rules also`_*
 the network is given the freedom to choose its game move when picks the move that is already picked it's given another shot 
