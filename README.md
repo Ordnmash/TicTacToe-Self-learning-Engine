@@ -6,7 +6,7 @@ Yet I'm very excited to share this here because I feel like I have made some pro
   <img src="tictactoeTiny_robot.jpeg" width="600" height="400" alt="tictactoe_Robot">
 </p>
 <hr>
-#### What is this actually?
+<b>What is this actually?</b><br>
 This is ttt AI game engine which is entirely `MLP, ANN` it has no intensions of memmory.
 the *network* is able to learn whether is right or wrong through Reward, if it wins the game it gets rewarded,
 so it learns that it has done a good move and it updates its parameters so that this winning path gets higher probability
