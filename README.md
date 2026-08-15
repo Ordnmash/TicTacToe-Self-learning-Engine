@@ -18,5 +18,5 @@ to pick another move, And this comes with the cost the network is getting negati
 elligal. After many times of training it learns not to pick moves that are already picked because it tries to avoid the 
 cost.
 
-###### This is just MLP, ANN isn't a very deep network that could outsmart a human yet, but scaling this up to even deeper architectures 
+###### This is just MLP, FEED FORWARD NN, isn't a very deep network that could outsmart a human yet, but scaling this up to even deeper architectures 
 ###### would improve its capabilities...
