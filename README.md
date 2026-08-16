@@ -9,8 +9,7 @@ Yet I'm very excited to share this here because I feel like I have made some pro
 <b>What is this actually?</b><br>
 This is ttt AI game engine which is entirely `MLP, ANN` it has no intensions of memmory.
 the *network* is able to learn whether is right or wrong through Reward, if it wins the game it gets rewarded,
-so it learns that it has done a good move and it updates its parameters so that this winning path gets higher probability
-again when the network is in the same situation.
+so it learns that it has done a good move and it updates its parameters so that this winning path gets higher probabilityagain when the network is in the same situation.
 <hr>
 
 ##### *_Yet the Network `learns rules also`_*
