@@ -9,7 +9,6 @@ This is ttt AI game engine which is entirely `MLP, ANN` it has no intensions of 
 the *network* is able to learn whether is right or wrong through Reward, if it wins the game it gets rewarded,
 so it learns that it has done a good move and it updates its parameters so that this winning path gets higher probability again when the network is in the same situation.
 <hr>
-
 ##### *_Yet the Network `learns rules also`_*
 the network is given the freedom to choose its game move when picks the move that is already picked it's given another shot 
 to pick another move, And this comes with the cost the network is getting negative reward when it picks the move that's 
