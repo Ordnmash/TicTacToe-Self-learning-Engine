@@ -5,6 +5,7 @@ import random
 
 class ttt:
   def __init__(self):
+    
     self.board = torch.zeros((1,9), dtype=torch.float32) # start the game with an empty board
     # these are all the possible winning paths in the game...
     self.winpaths= [torch.tensor([0,1,2]),torch.tensor([3,4,5]),torch.tensor([6,7,8]), # all the possible winning path in the game.
