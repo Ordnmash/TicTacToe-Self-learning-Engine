@@ -29,7 +29,6 @@ class ttt:
     self.round  = 0
     self.won    = None
 
-  # playgame function handles training the model too because the model learns while interacting...
   def playgame(self,x,o,plays=1, prnt=False,prnt_probs=False,train=False,who='',loop=1,lr=-0.0001):
     for i in range(plays):
       self.regame()
