@@ -29,7 +29,7 @@ class ttt:
     self.round  = 0
     self.won    = None
 
-  def playgame(self,x,o,plays=1, prnt=False,prnt_probs=False,train=False,who='',loop=1,lr=-0.0001):
+  def playgame(self,x,o,plays=1, prnt=False,prnt_probs=False,train=False,who='',lr=-0.0001):
     for i in range(plays):
       self.regame()
       x.regame()
