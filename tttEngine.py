@@ -219,7 +219,7 @@ class ttt:
       
     # model's decision...
     def forward(self,x): # forward pass is really messy for full control and simulation...
-      hidden  = x @ self.w1 + self.b1
+      hidden  = x @ self.w1 + self.b1 # however this bias could be set to False
       hidden2 = hidden @ self.w2
       h2mean  = hidden2.mean()
       h2std   = hidden2.std() + 1e-05
