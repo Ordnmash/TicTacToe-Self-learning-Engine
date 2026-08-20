@@ -22,7 +22,7 @@ if train:
     x.loss.backward()
     # optimizing...
     for p in x.parameters:
-      p.data += (lr * p.grad)
+      p.data -= (lr * p.grad)
 
   # with who passed as 'o' we only trained specific side of the model which is O
   if who == 'o':
@@ -31,4 +31,4 @@ if train:
     o.loss.backward()
     # optimizing...
     for p in o.parameters:
-      p.data += (lr * p.grad)
+      p.data -= (lr * p.grad)
