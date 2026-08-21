@@ -24,7 +24,7 @@ if train:
     for p in x.parameters:
       p.data -= (lr * p.grad)
 
-  # with who passed as 'o' we only trained specific side of the model which is O
+  # with who passed as 'o' we only trained specific side of the model which is 'O'
   if who == 'o':
     for p in o.parameters:
       p.grad=None
