@@ -1,6 +1,6 @@
-# this file shows the training section using SGD optimizer
+# this file shows the training section using SGD optimizer.
 if train:
-  if not who: # this trains both parts of the model.
+  if not who: # this trains both parts of the model
     # backward pass
     for p in x.parameters:
       p.grad=None
