@@ -219,6 +219,7 @@ class ttt:
       self.orgtrs = {1:0,2:0,3:0,4:0,5:0,6:0,7:0,8:0,9:0}
       
     # model's decision...
+    
     def forward(self,x): # forward pass is really messy for full control and simulation...
       hidden  = x @ self.w1 + self.b1 # however this bias could be set to False
       hidden2 = hidden @ self.w2
