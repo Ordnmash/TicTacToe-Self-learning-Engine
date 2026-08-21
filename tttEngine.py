@@ -265,6 +265,6 @@ class ttt:
         notTensor = type(ix) == type(None)
 
       self.paths.append(ix)
-      self.lprobs.append(torch.log(probs[ix] dtype=torch.float32))
+      self.lprobs.append(torch.log(probs[ix], dtype=torch.float32))
       
       return ix
